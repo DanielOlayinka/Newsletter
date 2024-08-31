@@ -24,7 +24,7 @@ body{
     height: 550px;
     background-color: var(--White);
     padding: 15PX;
-    margin: 60px auto;
+    margin: 40px auto;
     border-radius: 40px;
 }
 .box1{
@@ -94,7 +94,7 @@ label input:hover{
 
  main input:hover{
     color: #fff;
-    background-image: linear-gradient(to right,  #FC5E70,hsl(4, 100%, 67%), #FBBC54 );
+    background-image: linear-gradient(to left,  #FC5E70,hsl(4, 100%, 67%), #FBBC54 );
     box-shadow:lightsalmon 0 9px 14px ;
     border: #fff;
 }
