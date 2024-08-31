@@ -1,0 +1,82 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+  
+  :root {
+    --Tomato: hsl(4, 100%, 67%);
+    --Dark-Slate-Grey: hsl(234, 29%, 20%);
+    --Charcoal-Grey: hsl(235, 18%, 26%);
+    --Grey: hsl(231, 7%, 60%);
+    --White: hsl(0, 0%, 100%);
+  }
+  body{
+      background-color: var(--Dark-Slate-Grey);
+      width: 100%;
+      font-family: "Roboto";
+  }
+  .container{
+      display: block;
+      max-width: 30%;
+      height: 420px;
+      background-color: var(--White);
+      padding: 40PX;
+      margin: 100px auto;
+      border-radius: 30px;
+  }
+  .container h1{
+    margin-top: 20px;
+    font-size: 48px;
+    font-weight: 900;
+    line-height: 49px;
+    margin-bottom: 20px;
+  }
+.container p{
+    margin-bottom: 30px;
+}
+.container a{
+    text-decoration: none;
+    text-align: center;
+    width: 100%;
+    
+}
+.container a p{
+    color:#fff;
+    padding: 10px;
+    font-weight: 700;
+    text-align: center;
+    height: 40px;
+    border-radius: 5px;
+    background-color: var(--Dark-Slate-Grey);
+}
+.container a p:hover{
+    background-image: linear-gradient(to right,  #FC5E70,hsl(4, 100%, 67%), #FBBC54 );
+    box-shadow:lightsalmon 0 9px 14px ;
+    border: #fff;
+}
+/* PHONE */
+@media(max-width: 768px) {
+    body{
+        background-color: #fff;
+        margin: 0;
+    }
+    .container{
+        max-width: 100%;
+        margin: 0;
+        border-radius: 0;
+        height: 700px;
+    }
+    .container img{
+        margin-top: 60px;
+    }
+    .container h1{
+        margin-bottom: 25px;
+    }
+    .container p{
+        margin-bottom: 300px;
+    }
+    
+}
